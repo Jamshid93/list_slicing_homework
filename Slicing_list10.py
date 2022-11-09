@@ -7,4 +7,6 @@ def main(list1,n):
     Returns:
         list: return answer.
     """
-    return
+    reverse=list1[n::]
+    return reverse[::-1]
+print(main(['a', 'b', 'c', 'd', 'e', 'f'],3))
